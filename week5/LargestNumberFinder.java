@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class LargestNumberFinder {
     public static void main(String[] args) {
-        int[] numbers = fillArray(10, 1, 100); // fill an array with 10 random numbers between 1 and 100
+        int[] numbers = fillArray(10, 1, 100);
         int largest = findLargest(numbers);
         System.out.println("The largest number in the array is: " + largest);
     }
