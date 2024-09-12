@@ -1,7 +1,9 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class TaskProcessor {
+
     private List<Task> taskQueue = new ArrayList<>();
 
     public void addTask(Task task) {
@@ -16,11 +18,14 @@ public class TaskProcessor {
     }
 
     public interface Task {
+
         void performCalculation();
+
         void generateReport();
     }
 
     public static class SquareTask implements Task {
+
         private int number;
         private int result;
 
