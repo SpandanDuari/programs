@@ -8,12 +8,14 @@ class Printer {
             try {
                 wait();  // Wait for the turn
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt(); // Handle interrupt
+                Thread.currentThread().interrupt(); // Handle interrupt'
+
             }
         }
         
         // Print the job
         System.out.println("Printing job " + jobId);
+        
         
         // Move to the next job
         currentJob++;
