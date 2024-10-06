@@ -24,7 +24,7 @@ public class DeleteEmployee {
             int rowsDeleted = preparedStatement.executeUpdate();
 
             if (rowsDeleted > 0) {
-                System.out.println("An employee was deleted successfully!");
+                System.out.println("An employee was deleted successfully");
             } else {
                 System.out.println("No employee found with the specified ID.");
             }
